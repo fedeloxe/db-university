@@ -1,0 +1,3 @@
+SELECT COUNT(*) AS studenti_iscritti , YEAR(`students`.`enrolment_date`) AS Anno_iscrizione
+FROM `students`
+GROUP BY YEAR(`students`.`enrolment_date`) 
